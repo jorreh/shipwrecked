@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#info {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: red;
+}
