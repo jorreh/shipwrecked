@@ -62,7 +62,7 @@ function updateXYZInfoBox(x, y, z) {
 window.addEventListener("deviceorientation", handleOrientation);
 
 function preload() {
-  font = loadFont("assets/dinpro-light.otf");
+  font = loadFont("/assets/dinpro-light.otf");
 }
 
 function setup() {
@@ -77,7 +77,7 @@ function setup() {
   angleMode(DEGREES);
   centerVector = createVector(windowWidth / 2, windowHeight / 2);
 
-  boatImg = loadImage("assets/boat.png"); // Load the image
+  boatImg = loadImage("/assets/boat.png"); // Load the image
 
   engine = Engine.create();
 
